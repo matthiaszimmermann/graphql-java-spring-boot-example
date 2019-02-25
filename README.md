@@ -70,6 +70,15 @@ mutation {
     }
 }
 ```
+# A Java Client would be nice ...
+
+SpringBoot provides support to intuitively build GraphQL server apps. Unfortunately, java client support is lacking. The list below provides some pointers to using Java for building GraphQL clients.
+
+GraphQL Java Client Links
+* [DZone Article with some comments regarding clients](https://dzone.com/articles/graphql-the-future-of-microservices)
+* [Node Library from Americanexpress](https://americanexpress.io/graphql-for-the-jvm/)
+* [Shopify Library](https://github.com/Shopify/graphql_java_gen)
+* [Android Apollo Library](https://github.com/apollographql/apollo-android)
 
 # License
 MIT
