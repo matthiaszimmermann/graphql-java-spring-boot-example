@@ -10,6 +10,8 @@ You can go to [http://localhost:8080/h2-console/login.jsp](http://localhost:8080
 - User Name: sa
 - Password: <blank>
 
+## Run Examples
+
 To check the database or to [http://localhost:8080/graphiql](http://localhost:8080/graphiql) to start executing queries. For example:
 ```
 {
@@ -35,6 +37,30 @@ mutation {
     author: 1) {
       id title
   }
+}
+```
+## Run Error Case Examples
+
+Ask for non-existing attribute
+```
+{
+  findAllBooks {
+    id
+    title
+    publisher
+  }
+}
+```
+
+Try to update a non-existing book
+```
+mutation {
+  updateBookPageCount(pageCount: 1313 id: 3)
+     {
+      id
+      title
+      pageCount
+    }
 }
 ```
 
