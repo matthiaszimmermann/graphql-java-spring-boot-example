@@ -12,7 +12,14 @@ You can go to [http://localhost:8080/h2-console/login.jsp](http://localhost:8080
 
 ## Run Examples
 
-To check the database or to [http://localhost:8080/graphiql](http://localhost:8080/graphiql) to start executing queries. For example:
+You may use curl on the command line
+
+```
+curl -X POST -H "Content-Type: application/json" -d '{"query": "{findAllBooks{id title}}"}' http://localhost:8080/graphql
+```
+
+Or the built-in graphical user interface [http://localhost:8080/graphiql](http://localhost:8080/graphiql) to start executing queries.
+
 ```
 {
   findAllBooks {
