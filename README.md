@@ -1,7 +1,7 @@
 # graphql-java-spring-boot-example
-Sample app for my tutorial [Building a GraphQL Server with Spring Boot](https://www.pluralsight.com/guides/java-and-j2ee/building-a-graphql-server-with-spring-boot). 
+Sample app for my tutorial [Building a GraphQL Server with Spring Boot](https://www.pluralsight.com/guides/building-a-graphql-server-with-spring-boot). 
 
-You'll need [Java 9](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html).
+For testing [Java 11](https://adoptopenjdk.net/installation.html?variant=openjdk11&jvmVariant=hotspot#) can be usede with this repo (The original repo seemst to have been tested with [Java 9](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)).
 
 Clone this repo and execute `mvnw spring-boot:run`. Or inside an IDE, execute the class `com.example.DemoGraphQL.DemoGraphQlApplication`.
 
