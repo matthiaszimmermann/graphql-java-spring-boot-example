@@ -80,5 +80,9 @@ GraphQL Java Client Links
 * [Shopify Library](https://github.com/Shopify/graphql_java_gen)
 * [Android Apollo Library](https://github.com/apollographql/apollo-android)
 
+TODO
+* check out [MountCloud client lib](https://github.com/MountCloud/graphql-client)
+* check out [hasura GraphQL on Postgres](https://github.com/hasura/graphql-engine)
+
 # License
 MIT
